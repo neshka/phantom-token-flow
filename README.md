@@ -22,9 +22,13 @@ The primary goal of Phantom Token Flow is education. It provides a hands-on expe
 
 ###### How to Use
 
-Install the required Python packages: Flask and PyJWT.
-Run the authorization server, resource server, and client scripts separately.
-Observe the flow of requests and token exchanges between the client, resource server, and authorization server.
+Install the required Python packages: Flask and PyJWT:
+pip install -r requirements.txt
+
+Run the authorization server, resource server, and client scripts separately:
+python authorization_server.py
+python resource_server.py
+python client.py
 
 ###### Note
 
